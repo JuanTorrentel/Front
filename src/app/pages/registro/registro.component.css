@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-card {
+    width: 400px;
+    border-radius: 10px;
+  }
+  
+  .login-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-field {
+    width: calc(50% - 10px);
+  }
+  
+  button[type="submit"] {
+    margin-top: 20px;
+  }
+  
